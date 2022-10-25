@@ -45,7 +45,8 @@
                 android:textColor="#AAAAAA"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/add_gdg"/>
 
             <ImageView
                 android:id="@+id/imageView"
@@ -65,6 +66,7 @@
 
             <EditText
                 android:id="@+id/EditTextName"
+                android:hint="@string/your_name_label"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -79,6 +81,7 @@
 
             <EditText
                 android:id="@+id/EditTextEmail"
+                android:hint="@string/email_label"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -93,6 +96,7 @@
 
             <EditText
                 android:id="@+id/EditTextCity"
+                android:hint="@string/city_label"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -107,6 +111,7 @@
 
             <EditText
                 android:id="@+id/EditTextCountry"
+                android:hint="@string/country_label"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -121,6 +126,7 @@
 
             <EditText
                 android:id="@+id/EditTextRegion"
+                android:hint="@string/region_label"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -135,6 +141,7 @@
 
             <TextView
                 android:id="@+id/labelTextWhy"
+                android:contentDescription="@string/motivation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -147,6 +154,7 @@
 
             <EditText
                 android:id="@+id/EditTextWhy"
+                android:hint="@string/enter_motivation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -162,6 +170,7 @@
 
             <Button
                 android:id="@+id/button"
+                android:contentDescription="@string/submit_button_description"
                 android:layout_width="40dp"
                 android:layout_height="24dp"
                 android:layout_marginEnd="40dp"
