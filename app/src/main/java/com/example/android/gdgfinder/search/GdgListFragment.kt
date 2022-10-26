@@ -103,7 +103,6 @@ class GdgListFragment : Fragment() {
                 }
             }
         })
-        })
 
         return binding.root
     }
